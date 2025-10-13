@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Sitio Web</title>
+		<meta charset="UTF-8" />        
+        <link href="imagenes/faviconhotel.png" rel="icon">
+        <link href="css/index.css" rel="stylesheet">
+	</head>
+
+    <body class = "pagina-inicio">   
+      <header class = "encabezado-inicio"> <!-- Aqui voy a poner los elementos principales del header para que se vea bonito-->
+        <div class = "contenedor-encabezado">
+            <div class = "logo">
+                <h1>Nostra</h1>
+                <span>Hotel de Montaña</span>  <!-- Aqui busqué cómo hacer guardar de forma genérica y me encontré con span, revisar si da problemas. También recordar que es a esta linea a la que le aplico el formado span en el css-->
+                     </div> 
+                <nav class="navegacion-inicio">
+                    <ul class="lista-navegacion"> <!-- Esta etiqueta es para listas de elementos, no olvidara y eliminarla por error-->
+                        <li><a href="#">Inicio</a></li> <!-- Hay que poner los "#", recordar no borrarlos-->
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Hospedaje</a></li>
+                        <li><a href="#">Biodiversidad</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </header>    
+
+            <section class="seccion-principal">
+                <div class="capa-superpuesta"></div>
+                    <div class="contenido-principal">
+                        <h2>Donde el lujo se une a la magia de la naturaleza</h2>
+                        <p>Descubre las maravillosas montañas costarricenses en un refugio de elegancia y sostenibilidad</p>
+                        <div class="botones-principales">
+                            <a href="#" class="botones">DESCUBRIR HABITACIONES</a>
+                            <a href="#" class="botones boton-secundario">NUESTROS SERVICIOS</a>
+                    </div>
+                </div>
+        </section>   
+
+        <section class= "seccion-bienvenida">
+            <div class = "contenedor">
+                <div class = "contenido-bienvenida">
+                    <div class = "texto-bienvenida">
+                        <h2>Bienvenido a Nostra</h2>
+                        <p>Ubicado en el corazón de las montañas de Costa Rica, Nostra ofrece una experiencia única donde el lujo se fusiona con la biodiversidad. Cada rincón de nuestro hotel está diseñado para conectarte con la naturaleza sin comprometer el confort y el lujo de un buen hospedaje.</p>
+                        <p>Somos la mejor opción para conocecr cascadas escondidas, observar aves exóticas y recibir relajación de lujo en nuestras villas con vistas panorámicas a la selva tropical.</p>
+                    </div>
+                    <div class = "imagen-bienvenida">
+                        <img src="imagenes/hotel-exterior.jpg" alt="Vista exterior del hotel Nostra">  <!-- Esta es la imagen donde se ve el hotel por fuera, no la de las montañas, recordar eso-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-habitaciones">
+        <div class="contenedor">
+            <h2>Nuestros Refugios en la Montaña</h2>
+
+            <div class="rejilla-habitaciones">
+
+                <!-- article creo que no lo vimos en clase pero es para contenido independiente, lo busqué  -->
+            <article class="tarjeta-habitacion">
+                <div class="imagen-habitacion">
+                    <img src="imagenes/suite-montana.jpg" alt="Suite Montaña">
+                </div>
+                <div class="info-habitacion">
+                <h3>Suite Montaña</h3>
+                <p>Vistas panorámicas, chimenea y terraza privada con jacuzzi</p>
+                    <span class="precio-habitacion">Desde $350/noche</span>
+                </div>
+            </article>
+
+            <article class="tarjeta-habitacion">
+                <div class="imagen-habitacion">
+                <img src="imagenes/Hotel-Villabosque.jpeg" alt="Villa Bosque">
+                </div>
+                <div class="info-habitacion">
+                <h3>Villa Bosque</h3>
+                <p>Inmersión total en la naturaleza, diseño sostenible y spa privado</p>
+                <span class="precio-habitacion">Desde $550/noche</span>
+                </div>
+            </article>
+
+            <article class="tarjeta-habitacion">
+                <div class="imagen-habitacion">
+                <img src="imagenes/cabaña-lujo.jpg" alt="Cabaña de Lujo">
+                </div>
+                <div class="info-habitacion">
+                <h3>Cabaña de Lujo</h3>
+                <p>Experiencia auténtica con todos los amenities modernos</p>
+                <span class="precio-habitacion">Desde $280/noche</span>
+                </div>
+            </article>
+
+            </div>
+            </div>
+        </section>
+
+
+        <section class="seccion-biodiversidad">
+            <div class="contenedor">
+                <div class="contenido-biodiversidad">
+                    <div class="texto-biodiversidad">
+                        <h2>Santuario de Biodiversidad</h2>
+                        <p>Costa Rica alberga entre el 3% y el 5% de la biodiversidad mundial, y en Nostra protegemos más de 100 hectáreas de bosque primario. Nuestros huéspedes pueden disfrutar de:</p>
+                    <ul class="lista-biodiversidad">
+                        <li>Observación de gran cantidad de especies de aves.</li>
+                        <li>Tours guiados por biólogos y expertos en la conservación de especies.</li>
+                        <li>Refugio de animales salvajes. </li>
+                        <li>Programas de reforestación y conocimiento de la flora nacional.</li>
+                    </ul>
+                </div>
+                <div class="galeria-biodiversidad">
+                        <img src="imagenes/avetropical.jpg" alt="Ave tropical">
+                        <img src="imagenes/orquidea.jpg" alt="Orquídea endémica">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+            <footer class="pie-inicio">
+                <div class="contenedor">
+                    <div class="contenido-pie">
+                        <div class="info-pie">
+                            <h3>Nostra | Hotel de Montaña</h3>
+                            <p>En las montañas de Costa Rica</p>
+                            <p>Tel: +506 8501 3720</p>
+                            <p>Email: contacto@nostrahotel.ac.cr</p>
+                        </div>
+                    </div>
+                    <div class="pie-final">
+                    <p>2025 Nostra Hotel de Montaña. Derechos reservados.</p>
+                </div>
+            </div>    
+        </footer>
+
+    </body>
+</html>  
+
