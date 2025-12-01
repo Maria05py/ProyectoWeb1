@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Credenciales</title>
+    <meta charset="utf-8">
+    <link href="imagenes/favicon.png" rel="icon">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
+
+  <body class="pagina-login">
+    <video autoplay muted loop playsinline class="video-fondo" poster="imagenes/hero-hotel.jpg">
+      <source src="videos/villasdelujoc.mp4" type="video/mp4">
+    </video>
+
+    <section class="bannerweb sin-imagen">
+      <div class="cuadrado-login-negro">
+        <h1 class="titulo-login">Identificación</h1>
+        <form class="barras-formulario" action="#" method="post" id="login-form">
+
+          <div class="campos-formulario">
+            <label class="campos" for="in-txt-user">Usuario</label>
+            <input id="in-txt-user" name="usuario" type="text" class="barras-diseño" placeholder="Ingrese su usuario">
+          </div>
+
+          <div class="campos-formulario">
+            <label class="campos" for="in-txt-pass">Contraseña</label>
+            <input id="in-txt-pass" name="clave" type="password" class="barras-diseño" placeholder="Ingrese su contraseña">
+          </div>
+
+          <div class="text-center bajar3">
+            <button type="button" class="botones" id="btn-login">Iniciar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <br>
+
+    <!-- programacion JS -->
+    <script src="js/login.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+  </body>
+</html>

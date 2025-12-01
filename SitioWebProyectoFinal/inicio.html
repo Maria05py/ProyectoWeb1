@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Nostra - Hotel de Montaña</title>
+    <meta charset="UTF-8" />
+    <link href="imagenes/favicon.png" rel="icon">
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="pagina-inicio">
+
+    <!-- HEADER -->
+    <header class="encabezado-inicio">
+        <div class="contenedor-encabezado">
+            <div class="logo">
+                <h1>Nostra</h1>
+                <span>Hotel de Montaña</span>
+            </div>
+
+            <nav class="navegacion-inicio">
+                <ul class="lista-navegacion">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#hospedaje">Hospedaje</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section id="inicio" class="seccion-principal">
+        <div class="capa-superpuesta"></div>
+        <div class="contenido-principal">
+            <h2>Donde el lujo se une a la magia de la naturaleza</h2>
+            <p>Descubre las maravillosas montañas costarricenses en un refugio de elegancia y sostenibilidad</p>
+
+            <div class="botones-principales">
+                <a href="#hospedaje" class="botones">DESCUBRIR HABITACIONES</a>
+                <a href="#servicioshotel" class="botones boton-secundario">NUESTROS SERVICIOS</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCIÓN BENEFICIOS -->
+    <section id="beneficios" class="seccion-bienvenida">
+        <div class="contenedor">
+            <div class="contenido-bienvenida">
+                <div class="texto-bienvenida">
+                    <h2>Bienvenido a Nostra</h2>
+                    <p>Ubicado en el corazón de las montañas de Costa Rica, Nostra ofrece una experiencia única donde el
+                        lujo se fusiona con la biodiversidad. Cada rincón de nuestro hotel está diseñado para conectarte
+                        con la naturaleza sin comprometer el confort.</p>
+
+                    <p>Somos la mejor opción para conocer cascadas escondidas, observar aves exóticas y recibir
+                        relajación de lujo en nuestras villas con vistas panorámicas.</p>
+                </div>
+
+                <div class="imagen-bienvenida">
+                    <img src="imagenes/hotel-exterior.jpg" alt="Vista exterior del hotel Nostra">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ICONOS SERVICIOS -->
+    <section id="servicioshotel" class="seccion-iconos-beneficios">
+        <div class="contenedor">
+            <h2 class="titulo-centrado">Nuestros Servicios</h2>
+
+            <div class="rejilla-iconos">
+                <div class="tarjeta-icono">
+                    <i class="fas fa-wifi icono-beneficio"></i>
+                    <h3>WiFi de Alta Velocidad</h3>
+                    <p>Conexión premium en todas las instalaciones</p>
+                </div>
+
+                <div class="tarjeta-icono">
+                    <i class="fas fa-spa icono-beneficio"></i>
+                    <h3>Spa de Lujo</h3>
+                    <p>Tratamientos relajantes con productos naturales</p>
+                </div>
+
+                <div class="tarjeta-icono">
+                    <i class="fas fa-utensils icono-beneficio"></i>
+                    <h3>Restaurante Gourmet</h3>
+                    <p>Cocina fusión con ingredientes locales</p>
+                </div>
+
+                <div class="tarjeta-icono">
+                    <i class="fas fa-hiking icono-beneficio"></i>
+                    <h3>Senderos Naturales</h3>
+                    <p>Rutas guiadas por el bosque primario</p>
+                </div>
+
+                <div class="tarjeta-icono">
+                    <i class="fas fa-concierge-bell icono-beneficio"></i>
+                    <h3>Servicio 24/7</h3>
+                    <p>Atención personalizada a cualquier hora</p>
+                </div>
+
+                <div class="tarjeta-icono">
+                    <i class="fas fa-tshirt icono-beneficio"></i>
+                    <h3>Lavandería</h3>
+                    <p>Servicio express de limpieza</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BIODIVERSIDAD -->
+    <section class="seccion-biodiversidad">
+        <div class="contenedor">
+            <div class="contenido-biodiversidad">
+
+                <div class="texto-biodiversidad">
+                    <h2>Santuario de Biodiversidad</h2>
+
+                    <p>Costa Rica alberga entre el 3% y el 5% de la biodiversidad mundial. En Nostra protegemos más de
+                        100 hectáreas de bosque primario.</p>
+
+                    <ul class="lista-biodiversidad">
+                        <li>Observación de aves exóticas</li>
+                        <li>Tours guiados por biólogos</li>
+                        <li>Refugio de fauna silvestre</li>
+                        <li>Programas de reforestación</li>
+                    </ul>
+                </div>
+
+                <div class="galeria-biodiversidad">
+                    <img src="imagenes/avetropical.jpg" alt="Ave tropical">
+                    <img src="imagenes/orquidea.jpg" alt="Orquídea endémica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MAPA -->
+    <section id="mapa" class="seccion-mapa">
+        <div class="contenedor">
+            <h2 class="titulo-centrado">Nuestra Ubicación</h2>
+            <p class="texto-centrado">Busca nuestra locación en el mapa y ven a visitarnos.</p>
+
+            <div class="contenedor-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31433.70891234567!2d-83.4889!3d9.4833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e342b2f5c5a5%3A0x123456789!2sCerro%20Chirrip%C3%B3!5e0!3m2!1ses!2scr!4v1234567890"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- HOSPEDAJE -->
+    <section id="hospedaje" class="seccion-habitaciones">
+        <div class="contenedor">
+            <h2>Nuestros Refugios en la Montaña</h2>
+
+            <div class="rejilla-habitaciones">
+
+                <article class="tarjeta-habitacion">
+                    <div class="imagen-habitacion">
+                        <img src="imagenes/suite-montana.jpg" alt="Suite Montaña">
+                    </div>
+                    <div class="info-habitacion">
+                        <h3>Suite Montaña</h3>
+                        <p>Vistas panorámicas, chimenea y jacuzzi</p>
+                        <span class="precio-habitacion">Desde $350/noche</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-habitacion">
+                    <div class="imagen-habitacion">
+                        <img src="imagenes/Hotel-Villabosque.jpeg" alt="Villa Bosque">
+                    </div>
+                    <div class="info-habitacion">
+                        <h3>Villa Bosque</h3>
+                        <p>Diseño sostenible y spa privado</p>
+                        <span class="precio-habitacion">Desde $550/noche</span>
+                    </div>
+                </article>
+
+                <article class="tarjeta-habitacion">
+                    <div class="imagen-habitacion">
+                        <img src="imagenes/cabaña-lujo.jpg" alt="Cabaña de Lujo">
+                    </div>
+                    <div class="info-habitacion">
+                        <h3>Cabaña de Lujo</h3>
+                        <p>Experiencia auténtica con amenities modernos</p>
+                        <span class="precio-habitacion">Desde $280/noche</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PAQUETES ESPECIALES / COMBOS -->
+    <section class="seccion-paquetes">
+        <div class="contenedor">
+            <h2 class="titulo-centrado">Paquetes Especiales</h2>
+            <p class="texto-centrado">Si quieres conocer más detalles sobre nuestras estadías, mira las siguientes
+                opciones y enamórate de sus beneficios.</p>
+
+            <!-- COMBO SIMPLE -->
+            <div class="contenedor-combo">
+                <h3>Selección de habitaciones</h3>
+
+                <div class="formulario-combo">
+                    <label for="combo-simple">Mira nuestras habitaciones:</label>
+                    <select id="combo-simple" class="select-combo">
+                        <option value=""> Selecciona una opción</option>
+                        <option value="balance">Habitación Balanceada</option>
+                        <option value="cabaña">Habitación de Cabaña</option>
+                        <option value="suite">Habitación de Suite</option>
+                        <option value="moderna">Habitación moderna</option>
+                        <option value="rustica">Habitación rústica</option>
+                    </select>
+                </div>
+
+                <div class="combo-output">
+                    <div id="output-img-simple" class="imagen-combo"></div>
+                    <div id="output-txt-simple" class="texto-combo"></div>
+                    <button id="btn-clean-simple" class="btn-limpiar">Reiniciar</button>
+                </div>
+            </div>
+
+            <!-- COMBO DOBLE -->
+            <div class="contenedor-combo">
+                <h3>Calcula tu estadía</h3>
+
+                <div class="formulario-combo">
+                    <label for="combo-doble-habitacion">Habitación:</label>
+                    <select id="combo-doble-habitacion" class="select-combo">
+                        <option value="">Seleccione habitación</option>
+                        <option value="balance">Habitación Balanceada</option>
+                        <option value="cabaña">Habitación Cabaña</option>
+                        <option value="suite">Habitación Suite</option>
+                        <option value="moderna">Habitación Moderna</option>
+                        <option value="rustica">Habitación Rústica</option>
+                    </select>
+
+                    <label for="combo-doble-noches">Noches de hospedaje:</label>
+                    <input type="number" id="combo-doble-noches" class="input-numero" min="1"
+                        placeholder="Ingrese cantidad de noches">
+
+                    <label for="combo-doble-extra">Servicio adicional:</label>
+                    <select id="combo-doble-extra" class="select-combo">
+                        <option value="">Sin extras</option>
+                        <option value="desayuno">Desayuno Premium (+$25)</option>
+                        <option value="spa">Spa Relajante (+$80)</option>
+                        <option value="tour">Tour de Naturaleza (+$40)</option>
+                        <option value="canopy">Canopy Premium (+$120)</option>
+                    </select>
+
+                    <div class="total-combo">
+                        <p>Total estimado: <span id="combo-doble-total">$0</span></p>
+                        <p id="combo-doble-resumen" class="texto-combo"></p>
+                    </div>
+
+                    <button id="btn-limpiar-doble" class="btn-limpiar">Reiniciar</button>
+                </div>
+            </div>
+
+            <!-- ZONAS CERCANAS -->
+            <div class="contenedor-combo">
+                <h3>Explora las zonas cercanas</h3>
+
+                <div class="formulario-combo">
+                    <label for="combo-zonas">Elige un destino cercano:</label>
+                    <select id="combo-zonas" class="select-combo">
+                        <option value="">Seleccione una zona</option>
+                        <option value="chirripo">Parque Nacional Chirripó</option>
+                        <option value="cloudbridge">Reserva Cloudbridge</option>
+                        <option value="quetzales">Parque Nacional Los Quetzales</option>
+                        <option value="san_gerardo">San Gerardo de Rivas</option>
+                        <option value="mapa_hotel">Ver mapa del hotel</option>
+                    </select>
+
+                    <button id="btn-zonas-ir" class="btn-limpiar">Explorar</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- GALERÍA MULTIMEDIA -->
+    <section id="galeria" class="seccion-galeria">
+        <div class="contenedor">
+            <h2 class="titulo-centrado">Galería Multimedia</h2>
+
+            <!-- PESTAÑAS -->
+            <div class="pestanas-galeria">
+                <button class="pestana-boton activa" data-target="fotos">
+                    <i class="fas fa-camera"></i> Imágenes
+                </button>
+
+                <button class="pestana-boton" data-target="videos">
+                    <i class="fas fa-video"></i> Videos
+                </button>
+            </div>
+
+            <!-- FOTOS -->
+            <div class="contenido-pestana activa" id="fotos">
+                <div class="rejilla-galeria">
+
+                    <div class="item-galeria" data-lightbox="imagenes/g1.jpg">
+                        <img src="imagenes/g1.jpg" alt="Suite Montaña">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                    <div class="item-galeria" data-lightbox="imagenes/g2.jpg">
+                        <img src="imagenes/g2.jpg" alt="Villa Bosque">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                    <div class="item-galeria" data-lightbox="imagenes/g3.png">
+                        <img src="imagenes/g3.png" alt="Cabaña de Lujo">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                    <div class="item-galeria" data-lightbox="imagenes/g4.jpg">
+                        <img src="imagenes/g4.jpg" alt="Ave Tropical">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                    <div class="item-galeria" data-lightbox="imagenes/g5.jpg">
+                        <img src="imagenes/g5.jpg" alt="Orquídea">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                    <div class="item-galeria" data-lightbox="imagenes/g6.jpg">
+                        <img src="imagenes/g6.jpg" alt="Hotel Exterior">
+                        <div class="overlay-galeria"><i class="fas fa-search-plus"></i></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- VIDEOS -->
+            <div class="contenido-pestana" id="videos">
+                <div class="rejilla-videos">
+
+                    <div class="item-video" data-video="https://www.youtube.com/embed/DeMFadK32NM?si=lgYxYK7nAgbQq7yx">
+                        <img src="imagenes/nature.jpg" alt="Video sobre Costa Rica">
+                        <div class="overlay-video">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Más sobre la naturaleza de Costa Rica</p>
+                        </div>
+                    </div>
+
+                    <div class="item-video" data-video="https://www.youtube.com/embed/5JL_w7koNIo?si=MSrvk_lRgvumuEO5">
+                        <img src="imagenes/experiencia.jpg" alt="Video Experencias">
+                        <div class="overlay-video">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Experiencias en nuestro Hotel</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CAROUSEL -->
+    <section class="seccion-carousel">
+        <h3 class="titulo-carousel">Carrousel con Experiencias de Nuestros Huéspedes</h3>
+
+        <div class="carousel-contenedor">
+
+            <!-- Flecha izquierda -->
+            <button class="carousel-boton anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <!-- Slides -->
+            <div class="carousel-items">
+                <div class="carousel-item activo">
+                    <div class="testimonio-contenido">
+
+                        <div class="testimonio-img">
+                            <img src="imagenes/huesped1.png" alt="Huésped en Nostra">
+                        </div>
+
+                        <div class="testimonio-texto">
+                            <p class="testimonio-frase">
+                                "Una experiencia inolvidable. Las vistas son espectaculares.”
+                            </p>
+                            <h4>- Lucía Centeno Rodríguez</h4>
+                            <div class="estrellas">★★★★★</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="testimonio-contenido">
+
+                        <div class="testimonio-img">
+                            <img src="imagenes/huesped2.png" alt="Huésped visitando senderos">
+                        </div>
+
+                        <div class="testimonio-texto">
+                            <p class="testimonio-frase">
+                                "La naturaleza, el spa y la comida superaron nuestras expectativas."
+                            </p>
+                            <h4>- Ethan Ramírez Soto</h4>
+                            <div class="estrellas">★★★★★</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="testimonio-contenido">
+
+                        <div class="testimonio-img">
+                            <img src="imagenes/huesped3.png" alt="Visitante disfrutando el hotel">
+                        </div>
+
+                        <div class="testimonio-texto">
+                            <p class="testimonio-frase">
+                                "Un refugio de paz y lujo. Son mi opción favorita."
+                            </p>
+                            <h4>- Ana Vargas Morales</h4>
+                            <div class="estrellas">★★★★★</div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!-- Flecha derecha -->
+                <button class="carousel-boton siguiente">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <!-- Indicadores dentro del recuadro -->
+                <div class="carousel-indicadores">
+                    <span class="indicador activo"></span>
+                    <span class="indicador"></span>
+                    <span class="indicador"></span>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion-contacto">
+        <div class="contenedor">
+            <h2 class="titulo-centrado">Contáctanos</h2>
+
+            <div class="contenedor-formularios">
+
+                <!-- FORMULARIO CONTACTO -->
+                <div class="formulario-contacto">
+                    <h3>Envíanos un Mensaje</h3>
+
+                    <form id="form-contacto" class="formulario">
+                        <div class="grupo-formulario">
+                            <label for="nombre-contacto">Nombre completo:</label>
+                            <input type="text" id="nombre-contacto" name="nombre" required>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="email-contacto">Correo electrónico:</label>
+                            <input type="email" id="email-contacto" name="email" required>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="telefono-contacto">Teléfono:</label>
+                            <input type="tel" id="telefono-contacto" name="telefono">
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="asunto-contacto">Asunto:</label>
+                            <select id="asunto-contacto" name="asunto" required>
+                                <option value="">-- Selecciona un asunto --</option>
+                                <option value="reserva">Consulta de Reserva</option>
+                                <option value="informacion">Información General</option>
+                                <option value="evento">Eventos Especiales</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="mensaje-contacto">Mensaje:</label>
+                            <textarea id="mensaje-contacto" name="mensaje" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="boton-formulario">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <!-- FORMULARIO SUSCRIPCIÓN -->
+                <div class="formulario-suscripcion">
+                    <h3>Suscríbete a Nuestro Boletín</h3>
+                    <p>Recibe ofertas exclusivas y novedades de Nostra</p>
+
+                    <form id="form-suscripcion" class="formulario">
+                        <div class="grupo-formulario">
+                            <label for="nombre-suscripcion">Nombre:</label>
+                            <input type="text" id="nombre-suscripcion" name="nombre" required>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label for="email-suscripcion">Email:</label>
+                            <input type="email" id="email-suscripcion" name="email" required>
+                        </div>
+
+                        <div class="grupo-formulario">
+                            <label>Intereses:</label>
+
+                            <div class="grupo-checkboxes">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interes" value="ofertas"> Ofertas especiales
+                                </label>
+
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interes" value="eventos"> Eventos y actividades
+                                </label>
+
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interes" value="noticias"> Noticias del hotel
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="boton-formulario">Suscribirme</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="pie-inicio">
+        <div class="contenedor">
+            <div class="contenido-pie-mejorado">
+                <div class="columna-pie">
+                    <div class="logo-pie">
+                        <i class="fas fa-mountain icono-logo-pie"></i>
+                        <h3>Nostra</h3>
+                    </div>
+                    <p>Hotel de Montaña</p>
+                    <p>Lujo y naturaleza en perfecta armonía</p>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Montañas de Costa Rica</p>
+                    <p><i class="fas fa-phone"></i> +506 8501 3720</p>
+                    <p><i class="fas fa-envelope"></i> contacto@nostrahotel.ac.cr</p>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul class="lista-pie">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#beneficios">Beneficios</a></li>
+                        <li><a href="#hospedaje">Hospedaje</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                    </ul>
+                </div>
+
+                <div class="columna-pie">
+                    <h4>Síguenos</h4>
+                    <div class="redes-sociales">
+                        <a href="https://www.facebook.com" class="icono-social" aria-label="Visitar Facebook"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com" class="icono-social" aria-label="Visitar Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" class="icono-social" aria-label="Visitar Twitter"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com" class="icono-social" aria-label="Visitar YouTube"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pie-final">
+                <p>&copy; 2025 Nostra Hotel de Montaña. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- LIGHTBOX FOTOS -->
+    <div id="lightbox-fotos" class="lightbox">
+        <span class="cerrar-lightbox">&times;</span>
+        <img class="contenido-lightbox" id="imagen-lightbox">
+        <button class="nav-lightbox anterior"><i class="fas fa-chevron-left"></i></button>
+        <button class="nav-lightbox siguiente"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- LIGHTBOX VIDEO -->
+    <div id="lightbox-video" class="lightbox-video">
+        <span class="cerrar-lightbox-video">&times;</span>
+        <div class="contenedor-video-lightbox">
+            <iframe id="iframe-video" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="js/combos.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/lightboximagenes.js"></script>
+    <script src="js/lightboxvideos.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/formularios.js"></script>
+
+
+</body>
+
+</html>
